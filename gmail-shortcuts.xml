@@ -12,13 +12,13 @@
       tabs.addTab("Useful", "useful");
       tabs.addTab("Another", "another");
       </script>
-    <div id="useful">
+    <div id="useful" style="display:none">
     
     	this is a test ... and so is this... 
     </div>
-    <div id="another">
+    <div id="another" style="display:none">
     
-    	this is a test ... and so is this... 
+    	the other tab
     </div>
   ]]> 
   </Content>
