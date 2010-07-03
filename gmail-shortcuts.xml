@@ -9,7 +9,88 @@
   <![CDATA[ 
     <div id="useful" style="display:none">
     
-    	this is a test ... and so is this... 
+    	<table >
+<tbody><tr >
+<th >Shortcut Key</th>
+<th >Definition</th>
+<th >Action</th>
+</tr>
+<tr>
+<th >&lt;Tab&gt; then &lt;Enter&gt;</th>
+<td  >Send message</td>
+<td valign="top">After composing your message,
+use this combination to send it automatically. (Supported in Internet Explorer and Firefox, on Windows.)</td>
+</tr>
+<tr>
+<th >y then o</th>
+<td  >Archive and next</td>
+<td valign="top">Archives your conversation and moves to the next one.</td>
+</tr>
+<tr>
+<th >g then a</th>
+<td  >Go to 'All Mail'</td>
+<td valign="top">Takes you to 'All Mail,' the storage site for all mail you've ever sent or received (and have
+not deleted).</td>
+</tr>
+<tr>
+<th >g then s</th>
+<td  >Go to 'Starred'</td>
+<td valign="top">Takes you to all conversations you have starred.</td> </tr><tr>
+<th >g then c</th>
+<td  >Go to 'Contacts'</td>
+<td valign="top">Takes you to your Contacts list.</td>
+</tr>
+<tr>
+<th >g then d</th>
+<td  >Go to 'Drafts'</td>
+<td valign="top">Takes you to all drafts you have saved.</td>
+</tr>
+<tr>
+<th >g then l</th>
+<td  >Go to 'Label'</td>
+<td valign="top">Takes you to the search box with the "label:" operator filled in for you.</td>
+</tr>
+<tr>
+<th >g then i</th>
+<td  >Go to 'Inbox'</td>
+<td valign="top">Returns you to the inbox.</td>
+</tr>
+<tr>
+<th >g then t</th>
+<td  >Go to 'Sent Mail'</td>
+<td valign="top">Takes you to all mail you've sent.</td>
+</tr>
+<tr>
+<th >* then a</th>
+<td  >Select all</td>
+<td valign="top">Selects all mail.</td>
+</tr>
+<tr>
+<th >* then n</th>
+<td  >Select none</td>
+<td valign="top">Deselects all mail.</td>
+</tr>
+<tr>
+<th >* then r</th>
+<td  >Select read</td>
+<td valign="top">Selects all mail you've read.</td>
+</tr>
+<tr>
+<th >* then u</th>
+<td  >Select unread</td>
+<td valign="top">Selects all unread mail.</td>
+</tr>
+<tr>
+<th >* then s</th>
+<td  >Select starred</td>
+<td valign="top">Selects all starred mail.</td>
+</tr>
+<tr>
+<th >* then t</th>
+<td  >Select unstarred</td>
+<td valign="top">Selects all unstarred mail.</td>
+</tr>
+</tbody></table>
     </div>
     <div id="another" style="display:none">
     
