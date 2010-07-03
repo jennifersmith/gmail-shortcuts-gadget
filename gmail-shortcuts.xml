@@ -7,15 +7,6 @@
   <UserPref name="selectedTab" datatype="hidden"/>
   <Content type="html">
   <![CDATA[ 
-    <script type="text/javascript">
-      var tabs = new gadgets.TabSet(__MODULE_ID__, "Useful");
-      tabs.addTab("Useful", {
-           contentContainer: document.getElementById("useful")
-        });
-      tabs.addTab("Another", {
-           contentContainer: document.getElementById("another")
-        });
-      </script>
     <div id="useful" style="display:none">
     
     	this is a test ... and so is this... 
@@ -24,6 +15,15 @@
     
     	the other tab
     </div>
+    <script type="text/javascript">
+      var tabs = new gadgets.TabSet(__MODULE_ID__, "Useful");
+      tabs.addTab("Useful", {
+           contentContainer: document.getElementById("useful")
+        });
+      tabs.addTab("Another one", {
+           contentContainer: document.getElementById("another")
+        });
+      </script>
   ]]> 
   </Content>
 </Module>
