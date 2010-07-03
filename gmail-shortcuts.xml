@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Gmail Shortcuts" height="250" scaling="true" />
+  <ModulePrefs title="Gmail Shortcuts" height="250" scaling="true" >
+  	<Require feature="setprefs"/>
+  	<Require feature="tabs"/>
+  </ModulePrefs>
+  <UserPref name="selectedTab" datatype="hidden"/>
   <Content type="html">
   <![CDATA[ 
-    <div>
+    <script type="text/javascript">
+      var tabs = new gadgets.TabSet(__MODULE_ID__, "Useful");
+      tabs.addTab("Useful", "useful");
+      tabs.addTab("Another", "another");
+      </script>
+    <div id="useful">
+    
+    	this is a test ... and so is this... 
+    </div>
+    <div id="another">
+    
     	this is a test ... and so is this... 
     </div>
   ]]> 
