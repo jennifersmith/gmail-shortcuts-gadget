@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Gmail Shortcuts" height="250" scaling="true" />
+  <Content type="html">
+  <![CDATA[ 
+    <div>
+    	this is a test
+    </div>
+  ]]> 
+  </Content>
+</Module>
