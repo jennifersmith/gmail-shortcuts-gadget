@@ -9,8 +9,12 @@
   <![CDATA[ 
     <script type="text/javascript">
       var tabs = new gadgets.TabSet(__MODULE_ID__, "Useful");
-      tabs.addTab("Useful", "useful");
-      tabs.addTab("Another", "another");
+      tabs.addTab("Useful", {
+           contentContainer: document.getElementById("useful")
+        });
+      tabs.addTab("Another", {
+           contentContainer: document.getElementById("another")
+        });
       </script>
     <div id="useful" style="display:none">
     
