@@ -13,6 +13,7 @@
 	<script>
 	   $(document).ready(function(){
 	   	$("#basic-shortcuts").shortcuts();
+	   	alert("this is here");
 	   });
 	</script>
     <div id="useful" style="display:none">
