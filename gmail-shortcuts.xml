@@ -108,7 +108,7 @@ not deleted).</td>
     </div>
     <script type="text/javascript">
       var tabs = new gadgets.TabSet(__MODULE_ID__, "Useful");
-      tabs.addTab("Useful", {
+      tabs.addTab("Basic", {
            contentContainer: document.getElementById("useful")
         });
       tabs.addTab("Another one", {
